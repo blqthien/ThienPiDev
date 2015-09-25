@@ -1,0 +1,40 @@
+{
+  "name": "blqthien/repositories",
+  "description": "Laravel Repositories",
+  "keywords": [
+    "laravel",
+    "repository",
+    "repositories",
+    "eloquent",
+    "database"
+  ],
+  "licence": "MIT",
+  "authors": [
+    {
+        "name": "Thien",
+        "email": "blqthien@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.*",
+    "illuminate/database": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ThienPiDev\\Repositories\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ThienPiDev\\Tests\\Repositories\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.x-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
