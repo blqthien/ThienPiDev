@@ -1,6 +1,6 @@
 {
-  "name": "blqthien/repositories",
-  "description": "Laravel Repositories",
+  "name": "blqthien/generators",
+  "description": "Laravel",
   "keywords": [
     "laravel",
     "repository",
@@ -22,12 +22,12 @@
   },
   "autoload": {
     "psr-4": {
-      "ThienPiDev\\Repositories\\": "src/"
+      "ThienPiDev\\Generators\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ThienPiDev\\Tests\\Repositories\\": "tests/"
+      "ThienPiDev\\Tests\\Generators\\": "tests/"
     }
   },
   "extra": {
